@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1536002406 source:c:\users\matias\desktop\pruebacalculadora\main.c
+1536132867 source:c:\users\matias\desktop\pruebacalculadora\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
 	<conio.h>
 	"Funcion.h"
 
-1536002356 c:\users\matias\desktop\pruebacalculadora\funcion.h
+1536137845 c:\users\matias\desktop\pruebacalculadora\funcion.h
 
-1536002414 source:c:\users\matias\desktop\pruebacalculadora\funcion.c
+1536139244 source:c:\users\matias\desktop\pruebacalculadora\funcion.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>

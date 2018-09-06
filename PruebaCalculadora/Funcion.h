@@ -1,52 +1,66 @@
-/** \brief SUMAR DOS OPERANDOS
+
+/** \brief Menu Principal
  *
- * \param float OPERANDO UNO
- * \param float OPERANDO DOS
- * \return float RESULTADO DE SUMA
+ * \return int Devuelve Menu Principal
+ *
+ */
+int menuPrincipal();
+
+void subMenu(void);
+
+/** \brief Suma de 2 operandos
+ *
+ * \param float Primer Operando
+ * \param float Segundo Operando
+ * \return float Devuelve Resultado De La Suma De Los 2 Operandos
  *
  */
 float suma(float,float);
-/********************************/
-/** \brief RESTAR DOS OPERANDOS
+
+
+/** \brief Resta de 2 Operandos
  *
- * \param float OPERANDO UNO
- * \param float OPERANDO DOS
- * \return float RESULTADO DE RESTA
+ * \param float Primer Operando
+ * \param float Segundo Operando
+ * \return float Devuelve Resultado De La Resta De 2 Operandos
  *
  */
 float resta(float,float);
-/********************************/
-/** \brief DIVIDE DOS OPERANDO, RETORNA VERIFICACION DIVISION POR CERO
+
+
+/** \brief Divide 2 Operandos
  *
- * \param float OPERANDO UNO
- * \param float OPERANDO DOS
- * \return void RESULTADO DE DIVISION
+ * \param float Primer Operando
+ * \param float Segundo Operando
+ * \return void Devuelve Resultado De La Division De 2 Operandos (En Caso De Dividir Por 0 Devuelve Verificaion De Division Por 0)
  *
  */
 float division(float,float);
-/********************************/
-/** \brief MULTIPLICA DOS OPERANDOS
+
+
+/** \brief Multiplica 2 Operandos
  *
- * \param float OPERANDO UNO
- * \param float OPERANDO DOS
- * \return float RESULTADO DE MULTIPLICACION
+ * \param float Primer Operando
+ * \param float Segundo Operando
+ * \return float Devuelve Resultado De La Multiplicacion De 2 Operandos
  *
  */
 float multiplicacion(float,float);
-/********************************/
-/** \brief APLICA FACTORIAL A UN UNICO VALOR ENTERO Y VERIFICA QUE SEA MAYOR DE 1
+
+
+/** \brief Aplica Factorial A Un Entero y Verifica Que Sea Mayor De 1
  *
- * \param int OPERADOR AL QUE SE LE APLICA EL FACTORIAL
- * \return unsigned long int RESULTADO DE FACTORIAL, ENTERO SIN SIGNO LARGO
+ * \param int Operando Al Que Se Le Aplica Factorial
+ * \return unsigned long int Devuelve Resultado de Factorial A (Entero Sin Signo Largo)
  *
  */
 unsigned long int factorial(int);
-/********************************/
-/** \brief VERIFICA SI CONTINUAR CON 'S' O SALIR CON 'N', VUELVE A PEDIR EN CASO DE CUALQUIER OTRA OPCION
+
+
+/** \brief Verifica Si Continuar Con 'S' O Salir Con 'N', Vuelve A Pedir En Caso De Cualquier Otra Opcion
  *
- * \param void NO RECIBE NADA
- * \return char DEVUELVE 'S' PARA CONTINUAR 'N' PARA SALIR
+ * \param void No Recibe Nada
+ * \return char Devuelve 'S' Para Continuar 'N' Para Salir
  *
  */
-char verificarSN(void);
-/********************************/
+char verificacionOpcion(void);
