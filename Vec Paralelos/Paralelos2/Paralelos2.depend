@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1536971989 source:c:\users\alumno\desktop\paralelos2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funcion.h"
+	<string.h>
+
+1536972059 source:c:\users\alumno\desktop\paralelos2\funcion.c
+
+1536971690 c:\users\alumno\desktop\paralelos2\funcion.h
+
