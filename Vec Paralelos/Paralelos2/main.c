@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TAM 2
+#define TAM 4
 #include "Funcion.h"
 #include <string.h>
 
@@ -23,6 +23,12 @@ int main()
         printf("Ingrese Legajo: ");
         scanf("%d", &legajos[i]);
 
+        /*
+            Para no pedir legajo, inicializar en un numero.
+            int autoleg = 1200;
+            legajos [i] =autoleg;
+            uutoleg++;
+        */
         printf("Ingrese Nota Primer Parcial: ");
         scanf("%d", &pp[i]);
 
