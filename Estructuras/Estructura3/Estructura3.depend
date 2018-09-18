@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1537232319 source:c:\users\alumno\desktop\estructura3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1537232076 c:\users\alumno\desktop\estructura3\alumno.h
+
+1537232308 source:c:\users\alumno\desktop\estructura3\alumno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
