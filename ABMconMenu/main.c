@@ -2,14 +2,16 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <string.h>
-#define TAM 2
+#define TAM 3
+#include "Funcion.h"
+
 
 int main()
 {
-    int salir = 0;
-    eEmpleado gente[TAM];
+    char seguir = 's';
+    eEmpleado empleados[TAM];
+    inicializarEmpleados(empleados, TAM);
 
-    inicializarEmpleados(gente, TAM);
 
     do
     {
@@ -17,35 +19,30 @@ int main()
         {
 
         case 1:
-            altaEmpleado(gente, TAM);
-            system("pause");
+            altaEmpleado(empleados, TAM);
             break;
         case 2:
-            bajaEmpleado(gente, TAM);
-            system("pause");
+            bajaEmpleado(empleados, TAM);
             break;
         case 3:
-            modificaEmpleado(gente, TAM);
-            system("pause");
+            modificaEmpleado(empleados, TAM);
             break;
         case 4:
-            mostrarEmpleados(gente, TAM);
-            system("pause");
+            mostrarEmpleados(empleados, TAM);
             break;
         case 5:
-            printf("\nOrdenar\n\n");
+            printf("\nORDENAR\n\n");
             system("pause");
             break;
         case 6:
-            printf("\nSalir\n\n");
-            salir = 1;
+            seguir = 'n';
             break;
         default:
             printf("\nOpcion Incorrecta\n\n");
             system("pause");
         }
     }
-    while(salir != 1);
+    while(seguir != 'n');
 
     return 0;
 }

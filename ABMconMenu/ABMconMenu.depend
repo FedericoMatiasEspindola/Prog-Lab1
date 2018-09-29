@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1538179891 source:c:\users\alumno\desktop\2809pro\funcion.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"Funcion.h"
+
+1538179972 c:\users\alumno\desktop\2809pro\funcion.h
+
+1538179943 source:c:\users\alumno\desktop\2809pro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"Funcion.h"
+

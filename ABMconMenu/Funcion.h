@@ -1,30 +1,29 @@
 typedef struct
 {
-    int dia;
-    int mes;
-    int anio;
-
-} eFecha;
-
-typedef struct
-{
     int legajo;
     char nombre[20];
     char sexo;
     float sueldo;
-    eFecha fechaIngreso;
     int isEmpty;
 
-} eEmpleado;
-
+}eEmpleado;
 
 int menu();
-void inicializarEmpleados(eEmpleado[], int);
-void mostrarEmpleados(eEmpleado[], int);
-void mostrarEmpleado(eEmpleado);
-int buscarLibre(eEmpleado[], int);
-void altaEmpleado(eEmpleado vec[], int tam);
-int buscarEmpleado(eEmpleado[], int, int);
-void bajaEmpleado(eEmpleado[], int);
-void modificaEmpleado(eEmpleado[], int);
+
+void inicializarEmpleados(eEmpleado lista[], int tam);
+
+void mostrarEmpleados(eEmpleado lista[], int tam);
+
+void mostrarEmpleado(eEmpleado unEmpleado);
+
+int buscarLibre(eEmpleado lista[], int tam);
+
+int buscarEmpleado(eEmpleado lista[], int tam, int legajo);
+
+void altaEmpleado(eEmpleado lista[], int tam);
+
+void bajaEmpleado(eEmpleado lista[], int tam);
+
+void modificaEmpleado(eEmpleado lista[], int tam);
+
 int menuModifica();
