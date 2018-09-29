@@ -26,4 +26,5 @@ void bajaEmpleado(eEmpleado lista[], int tam);
 
 void modificaEmpleado(eEmpleado lista[], int tam);
 
-int menuModifica();
+//int menuModifica();
+

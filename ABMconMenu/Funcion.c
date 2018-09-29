@@ -192,7 +192,7 @@ void modificaEmpleado(eEmpleado lista[], int tam)
     int legajo;
     int existe;
     char confirma;
-    int seguir = 's';
+    //int seguir = 's';
 
     system("cls");
     printf("---Modifica Empleado---\n\n");
@@ -220,7 +220,11 @@ void modificaEmpleado(eEmpleado lista[], int tam)
 
         if(confirma == 's')
         {
-            do{
+            printf("Ingrese el nuevo sueldo: ");
+            scanf("%f" , &nuevoDatoEmpleado.sueldo);
+            lista[existe].sueldo = nuevoDatoEmpleado.sueldo;
+
+           /* do{
                 switch(menuModifica())
                 {
                     case 1:
@@ -250,7 +254,7 @@ void modificaEmpleado(eEmpleado lista[], int tam)
                         break;
                 }
 
-            }while(seguir != 'n');
+            }while(seguir != 'n');*/
 
             printf("\nSe ha realizado la modificacion\n\n");
             system("pause");
@@ -264,7 +268,7 @@ void modificaEmpleado(eEmpleado lista[], int tam)
         }
 }
 
-int menuModifica()
+/*int menuModifica()
 {
     int opcion;
 
@@ -280,3 +284,5 @@ int menuModifica()
 
     return opcion;
 }
+*/
+

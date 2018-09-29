@@ -31,7 +31,7 @@ int main()
             mostrarEmpleados(empleados, TAM);
             break;
         case 5:
-            printf("\nORDENAR\n\n");
+            printf("\nORDENAR EMPLEADOS\n\n");
             system("pause");
             break;
         case 6:
