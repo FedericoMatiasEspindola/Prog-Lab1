@@ -16,7 +16,9 @@ int menu()
     printf(" 3- Modificacion\n");
     printf(" 4- Listar Empleados\n");
     printf(" 5- Ordenar Empleados\n");
-    printf(" 6- Salir\n\n");
+    printf(" 6- Mostrar Empleados por Sector\n");
+    printf(" 7- Ordenar Empleados por Sector y Nombre\n");
+    printf(" 9- Salir\n\n");
     printf("%cIngrese opcion: ", 254);
     scanf("%d", &opcion);
 
@@ -204,7 +206,7 @@ void bajaEmpleado(eEmpleado lista[], int tam)
 
 }
 
-void ModificarEmpleado(eEmpleado lista[], int tam)
+void modificarEmpleado(eEmpleado lista[], int tam)
 {
     int legajo;
     int indice;
@@ -235,7 +237,6 @@ void ModificarEmpleado(eEmpleado lista[], int tam)
         if(seguir == 'n')
         {
             printf("Modificacion cancelada\n\n");
-
         }
         else
         {
@@ -269,7 +270,7 @@ void ordenarEmpleadosXlegajo(eEmpleado lista[], int tam)
     }
 
     printf("Empleados oredenados con exito!!!\n\n");
-
+    system("pause");
 
 }
 
@@ -295,9 +296,6 @@ void harcodearEmpleados(eEmpleado empleados[])
         empleados[i] = x[i];
     }
 
-
-
-
 }
 
 void listarSectores(eSector sectores[], int tam)
@@ -322,3 +320,40 @@ void obtenerSector(eSector sectores[], int tam, int idSector, char cadena[])
         }
 
 }
+/*
+void mostrarEmpleadosSector(eEmpleado lista[], int tam, eSector sectores[], int tamSector)
+{
+    system("cls");
+    printf("Legajo   Nombre  Sexo   Sueldo\n\n");
+
+
+
+
+
+}
+
+
+void ordenarEmpleadosSectorNombre(eEmpleado lista[], int tam, )
+{
+    eEmpleado auxEmpleado;
+    for(int i=0; i<tam-1; i++)
+    {
+        for(int j= i+1; j < tam; j++)
+        {
+
+            if( lista[i].legajo > lista[j].legajo)
+            {
+                auxEmpleado = lista[i];
+                lista[i] = lista[j];
+                lista[j] = auxEmpleado;
+
+            }
+        }
+    }
+
+    printf("Empleados oredenados con exito!!!\n\n");
+    system("pause");
+
+}
+
+*/

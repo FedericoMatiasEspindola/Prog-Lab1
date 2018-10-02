@@ -15,9 +15,8 @@ typedef struct
 }eSector;
 
 int menu();
-void inicializarEmpleados(eEmpleado lista[], int tam);
 
-void mostrarEmpleado(eEmpleado unEmpleado, eSector sectores[], int tam);
+void inicializarEmpleados(eEmpleado lista[], int tam);
 
 int buscarLibre(eEmpleado lista[], int tam);
 
@@ -27,16 +26,20 @@ void altaEmpleado(eEmpleado lista[], int tam, eSector sectores[], int tamSector)
 
 void bajaEmpleado(eEmpleado lista[], int tam);
 
-void ModificarEmpleado(eEmpleado lista[], int tam);
+void modificarEmpleado(eEmpleado lista[], int tam);
 
 void ordenarEmpleadosXlegajo(eEmpleado lista[], int tam);
 
-void harcodearEmpleados(eEmpleado empleados[]);
+void mostrarEmpleado(eEmpleado unEmpleado, eSector sectores[], int tam);
 
 void mostrarEmpleados(eEmpleado lista[], int tam, eSector sectores[], int tamSector);
+
+void harcodearEmpleados(eEmpleado empleados[]);
 
 void listarSectores(eSector sectores[], int tam);
 
 void obtenerSector(eSector sectores[], int tam, int idSector, char cadena[]);
 
+//void mostrarEmpleadosSector(eEmpleado lista[], int tam, eSector sectores[], int tamSector);
 
+//void ordenarEmpleadosSectorNombre(eEmpleado lista[], int tam);

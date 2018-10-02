@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1538438583 source:c:\users\alumno\desktop\abm2\funcion.c
+1538440130 source:c:\users\alumno\desktop\abm2\funcion.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<string.h>
 	"Funcion.h"
 
-1538437915 c:\users\alumno\desktop\abm2\funcion.h
+1538440146 c:\users\alumno\desktop\abm2\funcion.h
 
-1538438636 source:c:\users\alumno\desktop\abm2\main.c
+1538440130 source:c:\users\alumno\desktop\abm2\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>

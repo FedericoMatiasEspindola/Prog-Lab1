@@ -37,17 +37,20 @@ int main()
             bajaEmpleado(empleados,TAM);
             break;
         case 3:
-            ModificarEmpleado(empleados, TAM);
-            system("pause");
+            modificarEmpleado(empleados, TAM);
             break;
         case 4:
             mostrarEmpleados(empleados, TAM, sectores, 5);
             break;
         case 5:
             ordenarEmpleadosXlegajo(empleados, TAM);
-            system("pause");
             break;
         case 6:
+            printf("Mostrar por sector");
+            //mostrarEmpleadosSector(empleados, TAM, sectores, 5);
+        case 7:
+            printf("Ordenar por sector y nombre");
+        case 9:
             seguir = 'n';
             break;
         }
