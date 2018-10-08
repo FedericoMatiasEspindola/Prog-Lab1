@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1539042301 source:d:\espindola.matias.1g\funcion.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"Funcion.h"
+
+1539042309 d:\espindola.matias.1g\funcion.h
+
+1539042463 source:d:\espindola.matias.1g\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"Funcion.h"
+
