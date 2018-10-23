@@ -7,6 +7,8 @@ int main()
 
     ePendrive miPendrive;
 
+    ePendrive pen1 = new_pendrive;
+
     if(cargarPendrive(&miPendrive))
     {
         mostrarPendrive(&miPendrive);

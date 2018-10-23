@@ -3,12 +3,6 @@
 #include "Funcion.h"
 
 
-
-
-
-
-
-
 int cargarPendrive(ePendrive* pen)
 {
     int todoOk = 0;
@@ -39,8 +33,12 @@ int cargarPendrive(ePendrive* pen)
 
 void mostrarPendrive(ePendrive* pen)
 {
-    system("cls");
-    printf("Codigo\tMarca\tCapacidad\tPrecio\n");
-    printf("%4d   %10s  %4d     %6.2f\n", pen->codigo, pen->marca, pen->capacidad, pen->precio);
-    printf("\n\n");
+    if(pen != NULL)
+    {
+        system("cls");
+        printf("Codigo\tMarca\tCapacidad\tPrecio\n");
+        printf("%4d   %10s  %4d     %6.2f\n", pen->codigo, pen->marca, pen->capacidad, pen->precio);
+        printf("\n\n");
+    }
+
 }
