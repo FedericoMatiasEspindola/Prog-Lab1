@@ -7,7 +7,7 @@ typedef struct
     float precio;
 }ePendrive;
 
-ePendrive* new_pendrive();
-int cargarPendrive(ePendrive* pen);
-void mostrarPendrive(ePendrive* pen);
 
+void mostrarPendrive(ePendrive* pen);
+ePendrive* new_pendrive();
+ePendrive* new_pendriveParam(int codigo, char* marca, int capacidad, float precio);

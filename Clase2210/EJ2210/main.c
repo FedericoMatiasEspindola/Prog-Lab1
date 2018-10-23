@@ -1,21 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "Funcion.h"
 
 int main()
 {
 
-   ePendrive* pen1, *pen2;
+   ePendrive* pen1;
 
-   pen1 = new_pendrive();
-   pen2 = new_pendrive();
+   pen1 = new_pendriveParam(1234, "kingston", 32, 560);
 
-   mostrarPendrive(pen1, pen2);
+   mostrarPendrive(pen1);
 
    free(pen1);
-   free(pen2);
-
 
     return 0;
 }
