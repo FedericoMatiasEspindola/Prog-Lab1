@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1540247531 source:c:\users\alumno\desktop\clase2210\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funcion.h"
+
+1540247389 c:\users\alumno\desktop\clase2210\funcion.h
+
+1540247687 source:c:\users\alumno\desktop\clase2210\funcion.c
+	<stdio.h>
+	<stdlib.h>
+	"Funcion.h"
+
